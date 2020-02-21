@@ -1,0 +1,26 @@
+.topImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .container {
+    position: relative;
+    height: 400px;
+    width: 400px;
+  }
+  .navbar {
+    z-index: 100;
+    position: absolute;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    left: 150px;
+    top: 350px;
+  }
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: aquamarine;
+  }
